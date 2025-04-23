@@ -19,7 +19,7 @@
   --ff-inter: "Inter", sans-serif;
   --ff-ibm: "IBM Plex Mono", sans-serif;
 
-  --font-head: 700 2rem/3 var(--ff-inter);
+  --font-head: 700 2rem/1.5 var(--ff-inter);
   --font-button: 600 1rem/1.25 var(--ff-inter);
   --font-body: 400 1rem/1.25 var(--ff-inter);
   --font-label: 400 0.75rem/1 var(--ff-inter);
@@ -145,12 +145,16 @@ button:disabled {
 }
 
 footer {
-  height: 196px;
+  max-height: 196px;
   padding: 2.5rem;
   background-color: var(--blue-400);
   text-align: center;
   overflow-y: scroll;
   display: none;
+}
+
+.show-result {
+  display: block;
 }
 
 footer span {
